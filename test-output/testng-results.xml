@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T11:02:56 IST" name="Suite" finished-at="2024-03-28T11:02:56 IST" duration-ms="121">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T11:02:56 IST" name="Test" finished-at="2024-03-28T11:02:56 IST" duration-ms="121">
+      <class name="TestCases.TS01_UpcomingBikes">
+        <test-method is-config="true" signature="driverSetup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TS01_UpcomingBikes@1aafa419]" started-at="2024-03-28T11:02:56 IST" name="driverSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1711603976389" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method driverSetup requires 2 parameters but 1 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method driverSetup requires 2 parameters but 1 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:453)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="hondaBike()[pri:0, instance:TestCases.TS01_UpcomingBikes@1aafa419]" started-at="2024-03-28T11:02:56 IST" name="hondaBike" finished-at="2024-03-28T11:02:56 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method driverSetup requires 2 parameters but 1 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method driverSetup requires 2 parameters but 1 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:453)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hondaBike -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TS01_UpcomingBikes@1aafa419]" started-at="2024-03-28T11:02:56 IST" name="tearDown" finished-at="2024-03-28T11:02:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TS01_UpcomingBikes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
